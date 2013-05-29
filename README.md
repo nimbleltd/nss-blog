@@ -7,7 +7,14 @@ This is a learning project for NSS 2 We are building this with an instructor.
 
 Features
 --------
-???
+0. Anon users can post an article
+1. Articles are posted by loggin users
+2. Comment
+3. Reply to Comments
+4. Authors can upload media in their posts
+5. Delete Articles
+6. View archives of old articles
+7. View Paginated article list
 
 Usage
 -------
