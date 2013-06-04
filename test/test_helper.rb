@@ -13,5 +13,6 @@ end
 
 class ActionDispatch::IntegrationTest
     include Capybara::DSL
+    self.use_transactional_fixtures = false
 end
 

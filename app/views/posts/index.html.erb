@@ -1,7 +1,8 @@
-<%= @posts.count %>
+<h1>All Posts</h1>
+<%= Post.count %>
 
 <ul>
-    <% @posts.each do |posts|
-        <li><%= post.title %> </li>
+    <% @posts.each do |posts| %>
+        <li><%= posts.title %> </li>
     <% end %>
 </ul>
